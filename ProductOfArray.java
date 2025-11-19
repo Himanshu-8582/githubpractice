@@ -11,8 +11,13 @@ public class ProductOfArray {
             pdt *= x;
         return pdt;
     }
+
+    public static double divide(int a,int b){
+        return (double)a/b;
+    }
     public static void main(String[] args) {
         int arr[] = { 1, 2, 3, 4, 5 };
         System.out.println(product(arr));
+        System.out.println(divide(10, 2));
     }
 }
